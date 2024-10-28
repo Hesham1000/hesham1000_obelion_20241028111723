@@ -1,0 +1,131 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-tabs li {
+  margin-left: 20px;
+}
+
+.nav-tabs a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-tabs a:hover {
+  color: #007bff;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.additional-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.additional-links a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.additional-links a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-media-buttons a {
+  margin: 0 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-media-buttons a:hover {
+  color: #007bff;
+}
